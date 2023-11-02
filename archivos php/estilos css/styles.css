@@ -1,0 +1,116 @@
+
+.contenedor {
+    background: rgba(255, 255, 255, 0.3); /* Fondo más transparente */
+    border: 2px solid #333; /* Borde alrededor del formulario */
+    padding: 20px;
+    text-align: center; /* Centra el contenido */
+    color: black; /* Color de texto negro */
+}
+
+/* Estilo para el formulario */
+form {
+    display: inline-block; /* Muestra el formulario en línea */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilo para las columnas */
+
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid rgba(0, 0, 0, 0.3); /* Borde semi-transparente */
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.3); /* Fondo semi-transparente */
+    color: black; /* Color de texto negro */
+}
+
+/* Estilo para el botón */
+
+/* Estilo para el contenedor de botones */
+.button {
+    text-align: center; /* Centra los elementos hijos horizontalmente */
+}
+
+/* Estilo para el botón */
+.button button {
+    padding: 15px 40px; /* Aumenta el padding para alargar el botón */
+    background-color: gray; /* Fondo gris para el botón */
+    color: white; /* Texto blanco */
+    border: none;
+    display: inline-block; /* Para centrar el botón en el contenedor */
+}
+
+
+/* Estilo para etiquetas y leyendas */
+label {
+    font-weight: bold;
+    color: black; /* Títulos en texto negro */
+}
+
+/* Estilo para la franja de mensaje */
+.franja {
+    clear: both;
+}
+
+textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3); /* Fondo semi-transparente para el campo de texto grande */
+    color: black; /* Color de texto negro */
+}
+
+/* Estilo para el logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilo para los botones al final */
+/* Estilo para los enlaces dentro del div con la clase "botones" */
+/* Estilo para el contenedor de los enlaces */
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para los enlaces */
+.botones a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: gray; /* Fondo gris para los botones */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los enlaces cuando se les pasa el mouse por encima (hover) */
+.botones a:hover {
+    background-color: darkgray; /* Cambio de color de fondo al pasar el mouse por encima */
+    color: white; /* Texto blanco */
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+}
+.column p {
+    width: 48%;
+}
+
+
+/* Estilo para el fondo del cuerpo del documento */
+body {
+    background-image: url('servicio.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* Fondo que se desplaza al desplazar la página */
+}

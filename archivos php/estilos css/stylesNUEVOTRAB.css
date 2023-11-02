@@ -1,0 +1,64 @@
+body {
+    background-image: url('trabajador.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    width: 50%;
+}
+
+
+h3 {
+    text-align: center;
+    color: #f8fafc;
+}
+
+label {
+    display: block;
+    color: #f8fafc;
+   
+  
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p label {
+    display: block;
+    font-weight: bold;
+    
+   
+margin-bottom: 5px;
+}
+
+p input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}

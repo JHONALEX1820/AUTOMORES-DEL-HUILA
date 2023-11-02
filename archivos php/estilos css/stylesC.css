@@ -1,0 +1,157 @@
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif, Arial;
+  margin: 0;
+  padding: 0;
+  background-image: url('portada.jpg'); /* si quieres cambiar de portada de fondo */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  background-color: rgba(251, 251, 251, 0.8);
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #2d0f9c; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color:#2d0f9c; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color:#2d0f9c; 
+  border-color: #7d1422; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #2d0f9c;
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #2d0f9c;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+.tp{
+  color: rgb(8, 0, 255);
+  text-align: center;
+} 
+
+
+/* estilos para el volver a inicio*/
+a.volver-inicio {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a.volver-inicio:hover {
+  background-color: #0056b3;
+}
